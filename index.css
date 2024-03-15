@@ -1,0 +1,102 @@
+/* @import url('https://fonts.googleapis.com/css?'); */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 
+.navbar{
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+nav a{
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+nav a:hover{
+  color: lightblue;
+} */
+h1 {
+  font-size: 3rem;
+  color: rgb(204, 204, 10);
+  /* background-color: rgba(2, 71, 199, 0.947); */
+  cursor: pointer;
+  display: inline;
+  border-radius: 10px;
+  padding: 5px;
+}
+h1:hover {
+  /* font-size: 3.5rem; */
+  /* color: yellow; */
+  align-items: center;
+}
+h3 {
+  margin: 15px 25px;
+  font-size: 2rem;
+}
+p {
+  /* margin: 10px 15px; */
+  margin: 10px;
+  font-size: 1.5rem;
+}
+li {
+  list-style-type: none;
+  float: left;
+  display: flex;
+}
+a {
+  padding-left: 20px;
+  color: white;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+nav {
+  background-color: rgb(10, 57, 17);
+  display: inline;
+  border-radius: 7px;
+  line-height: 5rem;
+}
+li a:hover {
+  color: green;
+}
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: inline;
+}
+body {
+  background-color: rgb(6, 65, 65);
+}
+.container {
+  color: azure;
+  padding: 15px;
+  display: grid;
+}
+.container1 {
+  text-align: center;
+}
+span {
+  font-size: 20px;
+}
+.btn {
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 12px;
+  color: azure;
+  background-color: green;
+}
+input {
+  border-radius: 8px;
+  padding: 8px;
+  margin: 10px;
+}
+/* .Signin {
+  margin-left: 800px;
+} */
+/* footer{
+  margin-top: 11rem;
+} */

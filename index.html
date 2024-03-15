@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>9th project</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a
+              id="anchorTag"
+              onmouseover="changeColor()"
+              onmouseout="restoreColor()"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a id="about" href="#">About</a></li>
+          <li><a class="Signin" href="#">Sign In</a></li>
+        </ul>
+      </nav>
+      <img id="photo" src="Azhar.jpg" alt="" />
+      <div class="container1">
+        <h1 id="heading1" onmouseover="hover()" onmouseout="resetHover()">
+          Hy, I am Azhar <span>(Syed Azhar Ashraf)</span>
+        </h1>
+        <h3>Qualification Details</h3>
+
+        <p>
+          I am a Student of BCA (Bachlore Of Computer Application) from R. M
+          College Saharsa in 5th Sem .<br />
+          I want to be a good Web Developer .<br />
+          I want to be a Programmer and a Softwere Engineer .
+        </p>
+        <footer>
+          <input type="text" placeholder="Feedback" />
+          <input
+            id="btn"
+            class="btn"
+            type="button"
+            value="Send Your Feedback"
+          />
+        </footer>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
